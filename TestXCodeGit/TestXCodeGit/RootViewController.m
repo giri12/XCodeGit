@@ -51,7 +51,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return 1;
 }
 
 // Customize the appearance of table view cells.
@@ -63,6 +63,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
+    cell.text = @"Test Value";
 
     // Configure the cell.
     return cell;
