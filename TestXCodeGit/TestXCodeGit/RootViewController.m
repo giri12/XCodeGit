@@ -63,7 +63,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-    cell.text = @"Test Value";
+    cell.text = @"New Test Value";
 
     // Configure the cell.
     return cell;
